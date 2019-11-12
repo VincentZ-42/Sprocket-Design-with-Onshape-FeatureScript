@@ -9,7 +9,7 @@
 3. Select Desired Chain No.
 * Selected Chain Numbers have predesignated Pitch and roller diameters as per ANSI Standards
 4. Fill in the options for desired number of teeth, bore diameter, and depth of sprocket
-*Note: a bore diameter with 0 length will yield a sprocket without a bore hole
+*Note: a bore diameter with 0 length will yield a sprocket without a bore hole*
 
 ### References
 * https://www.onshape.com/cad-blog/tech-tip-lets-build-a-sprocket
