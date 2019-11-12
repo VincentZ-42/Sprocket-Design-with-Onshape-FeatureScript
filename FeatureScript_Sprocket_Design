@@ -60,21 +60,8 @@ export enum ANSI_Number_Choice
     ANSI_240,
 }
 
-// Created Function in an attempt to find the midpoint of an Arc, but found a work around..
-function    MidPoint_Arc_1D(x1, x2, r)
-{
-    var dx = x2 - x1;
-    var part_1 = sqrt((r + x1) * (r+x2));
-    var part_2 = sqrt((r - x1) * (r - x2));
-    part_1 *= (dx < 0) ? -1 : 1;
-    part_2 *= (dx > 0) ? 1: -1;
-    
-    var midpoint = part_1 + part_2;
-    
-    return (midpoint);
-}
 // Functions that sets the Pitch and Roller Diameter based off Chain No. for Standard Series Roller Chain
-// Values are based off Chain Data provided by Brewton Iron Works Inc "Sprocket Tooth Dimension
+// Values are based off Chain Data provided by Brewton Iron Works Inc "Sprocket Tooth Dimension"
 function    Set_P_and_Dr(ANSI_Choice)
 {
     var arr = makeArray(2, 0);
@@ -179,7 +166,7 @@ export const myFeature = defineFeature(function(context is Context, id is Id, de
             point_o = evVertexPoint(context, {"vertex" : definition.center});
         selected_face = Extrude_direction(selected_face, definition.oppositeDirection);
         
-        // Runs a quick check to see if the selected point is coplaner to selected plane
+        // Runs a quick check to see if the selected point is co-planer to selected plane
         if (isPointOnPlane(point_o, selected_face) == false)
             throw ("Point not on selected face");
 
@@ -242,7 +229,7 @@ export const myFeature = defineFeature(function(context is Context, id is Id, de
                 "end" : vector(-point_zx, point_zy) * inch
         });
         
-        // Trignometric calucaltions to find points of u and b which are points that...
+        // Trignometric calucaltions to find points of u and b:
         //...point u = tangent point of circle_Ds and circle_E (bottom of tooth)
         //...point b = center of circle F (top of tooth)
         var point_ux = point_ax - (Ds/2*cos(A*degree));
