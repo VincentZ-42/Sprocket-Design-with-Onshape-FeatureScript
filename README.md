@@ -3,6 +3,7 @@
 
 ## How to Use
 1. Click on Custom Features and chose Sprocket
+<img width="252" alt="Select Feature" src="https://user-images.githubusercontent.com/49771001/68693440-2410c480-052c-11ea-979e-bdb772b9b770.png">
 2. Select a plane or surface
 * Option to choose center of sprocket by checking the "Choose Center" box
 3. Select Desired Chain No.
