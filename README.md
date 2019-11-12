@@ -11,8 +11,8 @@
 <img width="610" alt="Optional Chose Center" src="https://user-images.githubusercontent.com/49771001/68693639-7eaa2080-052c-11ea-833c-35059a692ebf.png">
 
 3. Select Desired Chain No.
+* Chain No. have predesignated Pitch and Roller Diameters as per ANSI Standards: Engineering data pulled from Brewton Iron Works Inc. [link](https://www.biwinc.net/files/2015/07/SPROCKET-ENGINEERING-DATA-2.pdf)
 <img width="372" alt="Chose Chain No" src="https://user-images.githubusercontent.com/49771001/68693662-84a00180-052c-11ea-8cc1-7f51a42b5782.png">
-* Selected Chain Numbers have predesignated Pitch and roller diameters as per ANSI Standards 
 
 4. Fill in the options for desired number of teeth, bore diameter, and depth of sprocket
 * Note: a bore diameter with 0 length will yield a sprocket without a bore hole
@@ -22,3 +22,5 @@
 * https://www.onshape.com/cad-blog/tech-tip-lets-build-a-sprocket
 * https://cad.onshape.com/FsDoc/tutorials/create-a-slot-feature.html
 * https://cad.onshape.com/FsDoc/library.html
+* http://www.gearseds.com/files/design_draw_sprocket_5.pdf
+* https://www.biwinc.net/files/2015/07/SPROCKET-ENGINEERING-DATA-2.pdf
